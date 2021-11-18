@@ -1,0 +1,36 @@
+body{
+    background-color: #222222;
+    color: white;
+}
+
+select,
+input{
+    width: 200px !important;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container .form-item:not(:first-child){
+    margin-inline: 20px;
+}
+
+.container .paragraph-container{
+    width: 100%;
+    background-color: #303030;
+    padding: 50px;
+}
